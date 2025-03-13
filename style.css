@@ -1,0 +1,80 @@
+/* Importando uma fonte elegante */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilização geral */
+body {
+    background-color: #f8f4f0;
+    color: #333;
+    text-align: center;
+}
+
+/* Header com imagem de fundo */
+header {
+    background-image: url('https://source.unsplash.com/1600x900/?beauty,spa'); /* Imagem aleatória */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Seção principal */
+.container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilização dos títulos */
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+}
+
+/* Parágrafos */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #d1a2a2;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b18181;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background: #333;
+    color: white;
+    font-size: 0.9rem;
+}
